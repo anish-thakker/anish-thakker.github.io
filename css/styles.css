@@ -23,8 +23,8 @@
   /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em;
   /* Adjust as needed */
-  animation: typing 3.5s steps(40, end), blink-caret 2s step-end infinite;
-  animation-iteration-count: .5s infinite;
+  animation: typing 3.5s steps(40, end), blink-caret 3s step-end infinite;
+  animation-iteration-count: infinite;
 }
 /* The typing effect */
 
@@ -45,4 +45,8 @@
   50% {
     border-color: #8A2BE2;
   }
+}
+
+h1{
+  font-family: 'Chalkduster', fantasy;
 }
