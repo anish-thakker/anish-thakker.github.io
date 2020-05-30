@@ -1,7 +1,7 @@
 {
   "particles": {
     "number": {
-      "value": 160,
+      "value": 170,
       "density": {
         "enable": false,
         "value_area": 394.57382081613633
@@ -14,7 +14,7 @@
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#000000"
+        "color": "#8A2BE2"
       },
       "polygon": {
         "nb_sides": 5
