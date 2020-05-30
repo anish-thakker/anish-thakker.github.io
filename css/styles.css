@@ -54,11 +54,14 @@ overflow: hidden;
 }
 
 
-
+@font-face{
+  font-family: 'Chalkduster'
+  src: url('fonts/Chalkduster.ttf')
+}
 
 h1{
 
-  font-family: 'Chalkduster', fantasy;
+  font-family: 'Chalkduster';
 }
 h2{
   animation: typewriter 4s steps(60, end);
