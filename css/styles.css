@@ -32,7 +32,7 @@
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: white; }
+  50% { border-color: gray; }
 }
 
 
@@ -48,9 +48,9 @@ overflow: hidden;
   /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em;
   /* Adjust as needed */
-  animation: typing 5s steps(40, end), blink-caret 0s step-end infinite;
-
-  animation-iteration-count: 1;
+  animation:
+    typing 5s steps(40, end),
+    blink-caret .5s step-end infinite;
 }
 
 
@@ -67,7 +67,7 @@ overflow: hidden;
 
 h1{
 
-  font-family: Chalkduster,'Courier';
+  font-family: Chalkduster,'Bradley Hand';
 }
 h2{
   animation: typewriter 4s steps(60, end);
