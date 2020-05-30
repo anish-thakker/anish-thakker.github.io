@@ -50,20 +50,24 @@ overflow: hidden;
   /* Adjust as needed */
   animation: typing 5s steps(40, end), blink-caret 0s step-end infinite;
 
-  animation-iteration-count: infinite;
+  animation-iteration-count: 1;
 }
 
 
 @font-face {
-	font-family: 'duster';
-	src: url('duster.eot');
-	src: url('duster.woff') format('woff'),
-	     url('duster.ttf') format('truetype');
+  font-family: 'Chalkduster';
+    src:  url('fonts/Chalkduster.ttf.woff') format(),
+    url('fonts/Chalkduster.ttf.woff') format('woff'),
+    url('fonts/Chalkduster.ttf.svg#Chalkduster') format('svg'),
+    url('fonts/Chalkduster.ttf.eot'),
+    url('fonts/Chalkduster.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1{
 
-  font-family: 'Chalkduster','Courier';
+  font-family: Chalkduster,'Courier';
 }
 h2{
   animation: typewriter 4s steps(60, end);
