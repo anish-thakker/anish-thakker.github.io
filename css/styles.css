@@ -13,6 +13,17 @@
 
 
 /* DEMO-SPECIFIC STYLES */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid #8A2BE2; /* The typwriter cursor */
