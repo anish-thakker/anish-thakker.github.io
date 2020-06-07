@@ -84,7 +84,7 @@ overflow: hidden;
 
 h1{
 
-    font-family: 'Bungee Shade', cursive;
+    font-family: 'Bungee Inline', cursive;
 }
 h2{
   animation: typewriter 4s steps(60, end);
