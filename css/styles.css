@@ -144,3 +144,16 @@ h4{
     width: 150px;
     height: 50px;
 }
+
+.logo3{
+    width: 150px;
+
+}
+
+.logo3 img{
+    margin: auto 300px;
+    margin-top: -180px;
+    float: right;
+    width: 250px;
+    height: 200px;
+}
